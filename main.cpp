@@ -5,8 +5,9 @@
 
 int main()
 {
-	std::cout<<"Image resizing tool by Pravetz"<<std::endl;
+	std::cout<<"Image resizing tool by Pravetz."<<std::endl;
 	int x, y;
+	std::cout<<"Enter filename/path to file: ";
 	std::string filename;
 	std::getline(std::cin, filename);
 	
